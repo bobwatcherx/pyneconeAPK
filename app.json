@@ -18,13 +18,25 @@
       "supportsTablet": true
     },
     "android": {
+      "package":"com.pyne.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions":[
+        "INTERNET",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9050882a-7660-4cb4-bb76-aff53972c028"
+      }
     }
   }
 }
